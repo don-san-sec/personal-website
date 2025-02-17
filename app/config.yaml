@@ -1,0 +1,90 @@
+baseURL: https://donsan.org
+title: David Sepashvili
+theme: DoIt
+enableEmoji: true
+
+menu:
+    main:
+        - identifier: home
+          name: Home
+          url: "/"
+          weight: 1
+params:
+    title: David Sepashvili
+    description: Security engineer from London
+    home:
+        profile:
+            enable: True
+            avatarUrl: /me.jpeg
+            title: David Sepashvili
+            subtitle: Security Engineer based in London
+            social: True
+        posts:
+            enable: False
+    footer:
+        enable: False
+    social:
+        Github: don-san-sec
+        Linkedin: donsan
+        Twitter: donsansec
+    cookieconsent:
+        enable: False
+    page:
+        hiddenFromHomePage: False
+        hiddenFromSearch: False
+        twemoji: False
+        lightgallery: False
+        ruby: True
+        fraction: True
+        fontawesome: True
+        rssFullText: True
+        pageStyle: wide
+        seriesNavigation: True
+        toc:
+            enable: True
+            keepStatic: False
+            auto: True
+        math:
+            enable: True
+            copyTex: True
+            mhchem: True
+        code:
+            copy: True
+            maxShownLines: 10
+        table:
+            sort: True
+        share:
+            enable: False
+        comment:
+            enable: False
+        footer:
+            enable: True
+            hugo: False
+            author: true
+            since: 2025
+        cookieconsent:
+            enable: False
+    twitterCard:
+        generate: False
+        card: "summary"
+markup:
+    highlight:
+        codeFences: True
+        guessSyntax: True
+        lineNos: True
+        lineNumbersInTable: True
+        noClasses: False
+    goldmark:
+        extensions:
+            definitionList: True
+            footnote: True
+            linkify: True
+            strikethrough: True
+            table: True
+            taskList: True
+            typographer: True
+        renderer:
+            unsafe: True
+        tableOfContents:
+            startLevel: 2
+            endLevel: 6

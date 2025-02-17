@@ -1,0 +1,3 @@
+[submodule "app/themes/DoIt"]
+	path = app/themes/DoIt
+	url = https://github.com/HEIGE-PCloud/DoIt.git
